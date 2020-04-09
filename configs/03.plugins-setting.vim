@@ -10,7 +10,7 @@ let g:NERDCustomDelimiters = { 'c': { 'left': '/**','right': '*/' } }
 let g:NERDTreeChDirMode=2
 let g:NERDTreeIgnore=['\.rbc$', '\~$', '\.pyc$', '\.db$', '\.sqlite$', '__pycache__', 'node_modules']
 let g:NERDTreeShowBookmarks=1
-"let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'
+let g:NERDTreeMapOpenInTabSilent = '<2-LeftMouse>'
 
 "Theme 
 syntax enable
@@ -18,7 +18,7 @@ set background=dark
 highlight Normal ctermbg=None
 colorscheme gruvbox
 let g:airline_theme='gruvbox'
-set termguicolors
+"set termguicolors
 "ack.vim
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'

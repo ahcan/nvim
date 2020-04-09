@@ -1,4 +1,4 @@
-call plug#begin('~/.config/nvim/bundle')
+call plug#begin('~/.vim/bundle')
 "tất cả các plugin phải nằm giữa hai hàm này plug#begin và plug#end
 Plug 'scrooloose/nerdtree' " trình quản lý file
 Plug 'morhetz/gruvbox' " theme for neo-vim

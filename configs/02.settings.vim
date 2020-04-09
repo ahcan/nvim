@@ -6,7 +6,7 @@ autocmd BufEnter * :set scroll=10 " set croll line
 syntax on
 
 set encoding=UTF-8
-set mouse=a " enable mouse trong context cua neovim 
+"set mouse=a " enable mouse trong context cua neovim 
 
 set incsearch 
 set hlsearch  "/ hightlight text khi search 
@@ -26,3 +26,7 @@ map <C-h> <C-W>h
 " Split template
 set splitbelow
 set splitright
+"
+"" Sample command W
+" 
+command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
