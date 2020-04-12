@@ -23,3 +23,12 @@ let g:airline_theme='gruvbox'
 if executable('ag')
   let g:ackprg = 'ag --vimgrep'
 endif
+
+"air line
+"
+let g:airline#extensions#tabline#enabled = 1
+
+"Vim-easymotion
+"
+nmap <silent> gw <Plug>(easymotion-overwin-f2) // nhận vào 2 kí tự prefix
+let g:EasyMotion_smartcase = 1
