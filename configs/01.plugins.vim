@@ -10,4 +10,6 @@ Plug 'terryma/vim-multiple-cursors' "multi seleca cursors
 Plug 'mileszs/ack.vim' "ack search
 Plug 'preservim/nerdcommenter' "comment/ucommnet
 Plug 'easymotion/vim-easymotion' "jump tới kết qủa search
+Plug 'neoclide/coc.nvim', {'branch': 'release'} "auto complie
+Plug 'liuchengxu/vista.vim' "code map
 call plug#end()
