@@ -26,6 +26,16 @@ map <C-h> <C-W>h
 " Split template
 set splitbelow
 set splitright
+" mapping auto close brackets
+"
+inoremap " ""<left>
+inoremap ' ''<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap {<CR> {<CR>}<ESC>O
+inoremap {;<CR> {<CR>};<ESC>O
+
 "
 "" Sample command W
 " 
