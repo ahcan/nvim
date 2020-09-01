@@ -1,5 +1,5 @@
 "NERDTree
-map <C-b> :NERDTreeToggle<CR>
+map <C-d> :NERDTreeToggle<CR>
 map <C-i> :NERDTreeFind<CR>
 let g:NERDTreePatternMatchHighlightFullName = 1
 let NERDTreeAutoDeleteBuffer = 1
