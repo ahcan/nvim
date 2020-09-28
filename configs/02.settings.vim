@@ -12,12 +12,15 @@ set incsearch
 set hlsearch  "/ hightlight text khi search 
 
 set tabstop=4 " space 4 khoan trang tab
+set shiftwidth=4 "dieu chinh 4 space cho moi indent
+set expandtab "su dung space character khi nhan Tab"
+set autoindent "Tu dong indent khi xuong hang"
 set softtabstop=0
-set shiftwidth=4
 set number
 set relativenumber
 set wildchar=<Tab> wildmenu wildmode=full
-set clipboard=unnamedplus
+set clipboard=unnamedplus "su dung clipboard he thong thay cho buffer vim"
+set cursorline "hightlight dong hien tai"
 " Move between windows
 map <C-j> <C-W>j
 map <C-k> <C-W>k

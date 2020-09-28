@@ -85,7 +85,7 @@ xmap <leader><leader>f  <Plug>(coc-format-selected)
 nmap <leader><leader>f  <Plug>(coc-format-selected)
 
 " Create mappings for function text object, requires document symbols feature of languageserver.
-xmap if <Plug>(coc-funcobj-i)
+xmap if <Plug>(coc-funcobj-)
 xmap af <Plug>(coc-funcobj-a)
 omap if <Plug>(coc-funcobj-i)
 omap af <Plug>(coc-funcobj-a)
@@ -115,15 +115,15 @@ endfunction
 " Add status line support, for integration with other plugin, checkout `:h coc-status`
 set statusline^=%{coc#status()}%{StatusDiagnostic()}
 " ncm2 settings
-autocmd BufEnter * call ncm2#enable_for_buffer()
-set completeopt=menuone,noselect,noinsert
-set shortmess+=c
-inoremap <c-c> <ESC>
+"autocmd BufEnter * call ncm2#enable_for_buffer()
+"set completeopt=menuone,noselect,noinsert
+"set shortmess+=c
+"inoremap <c-c> <ESC>
 " make it fast
-let ncm2#popup_delay = 5
-let ncm2#complete_length = [[1, 1]]
+"let ncm2#popup_delay = 5
+"let ncm2#complete_length = [[1, 1]]
 " Use new fuzzy based matches
-let g:ncm2#matcher = 'substrfuzzy'
+"let g:ncm2#matcher = 'substrfuzzy'
 " jedi options
 let g:jedi#auto_initialization = 1
 let g:jedi#completions_enabled = 0
