@@ -9,7 +9,17 @@ Plug 'majutsushi/tagbar' "tag bar
 Plug 'terryma/vim-multiple-cursors' "multi seleca cursors
 Plug 'mileszs/ack.vim' "ack search
 Plug 'preservim/nerdcommenter' "comment/ucommnet
-Plug 'easymotion/vim-easymotion' "jump tới kết qủa search
+Plug 'easymotion/vim-easymotion' "bind ky tu
 Plug 'neoclide/coc.nvim', {'branch': 'release'} "auto complie
 Plug 'liuchengxu/vista.vim' "code map
+" syntax check
+Plug 'w0rp/ale'
+" Autocomplete
+Plug 'ncm2/ncm2'
+Plug 'roxma/nvim-yarp'
+Plug 'ncm2/ncm2-bufword'
+Plug 'ncm2/ncm2-path'
+Plug 'ncm2/ncm2-jedi'
+" Formater
+Plug 'Chiel92/vim-autoformat'
 call plug#end()

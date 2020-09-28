@@ -6,7 +6,7 @@ autocmd BufEnter * :set scroll=10 " set croll line
 syntax on
 
 set encoding=UTF-8
-"set mouse=a " enable mouse trong context cua neovim 
+set mouse=a " enable mouse trong context cua neovim 
 
 set incsearch 
 set hlsearch  "/ hightlight text khi search 
@@ -36,7 +36,9 @@ inoremap { {}<left>
 inoremap {<CR> {<CR>}<ESC>O
 inoremap {;<CR> {<CR>};<ESC>O
 
+"Load ruby provider
+let g:loaded_ruby_provider = 1
 "
 "" Sample command W
 " 
-command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
+"command W :execute ':silent w !sudo tee % > /dev/null' | :edit!
